@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  myapp:
+    image: new-app
+    container_name: Drunk
+    ports:
+      - '5000:3000'
